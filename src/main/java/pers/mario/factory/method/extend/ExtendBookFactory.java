@@ -25,18 +25,9 @@ public class ExtendBookFactory implements ExtendFactory {
             Book book_2 = (Book) Class.forName(c.getName()).getDeclaredConstructor().newInstance();
             return (T) book_2;
 
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
 
         return null;
     }

@@ -10,6 +10,11 @@ package pers.mario.factory.method;
  * @Version:V1.0.0
  */
 public class ToolBookFactory implements BookFactory {
+    /**
+     * 创建工具类书籍的工厂，返回的对象是Book的子类
+     * @return book
+     */
+    @Override
     public Book create() {
         return new ToolBook();
     }
