@@ -1,10 +1,10 @@
-package pers.mario.factory.simple;
+package pers.mario.simple.factory;
 
 /**
  * @Project: design
  * @PackageName: pers.mario.factory.simple
- * @FileName: BookFactory.java
- * @Description: The BookFactory is...
+ * @FileName: ExtendBookFactory.java
+ * @Description: The ExtendBookFactory is...
  * @Author: mario
  * @Time: 2019-04-08 13:51:00
  * @Version:V1.0.0

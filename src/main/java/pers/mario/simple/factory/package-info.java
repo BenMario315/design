@@ -1,11 +1,11 @@
 /**
  * @Project: design
- * @PackageName: pers.mario.singlecase
+ * @PackageName: pers.mario.factory.simple
  * @FileName: package-info.java
  * @Description: The package is...
  * @Author: mario
- * @Time: 2019-04-08 13:38:05
+ * @Time: 2019-04-08 13:43:38
  * @Version:V1.0.0
  */
-//单例模式
-package pers.mario.singlecase;
+//简单工厂模式
+package pers.mario.simple.factory;

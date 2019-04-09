@@ -3,7 +3,7 @@ package pers.mario.factory.method;
 /**
  * @Project: design
  * @PackageName: pers.mario.factory.method
- * @FileName: BookFactory.java
+ * @FileName: ExtendBookFactory.java
  * @Description: 总工厂定义接口
  * @Author: mario
  * @Time: 2019-04-08 15:01:34

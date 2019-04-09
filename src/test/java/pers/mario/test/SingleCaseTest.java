@@ -1,8 +1,8 @@
 package pers.mario.test;
 
 import org.junit.Test;
-import pers.mario.singlecase.HungrySingleCase;
-import pers.mario.singlecase.SluggardSingleCase;
+import pers.mario.singleton.HungrySingleCase;
+import pers.mario.singleton.SluggardSingleCase;
 
 /**
  * @Project: design

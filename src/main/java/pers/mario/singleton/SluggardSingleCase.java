@@ -1,4 +1,4 @@
-package pers.mario.singlecase;
+package pers.mario.singleton;
 
 /**
  * @Project: design

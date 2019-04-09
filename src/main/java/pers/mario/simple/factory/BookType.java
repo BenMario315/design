@@ -1,4 +1,4 @@
-package pers.mario.factory.simple;
+package pers.mario.simple.factory;
 
 /**
  * @Project: design

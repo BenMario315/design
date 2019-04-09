@@ -1,14 +1,14 @@
-package pers.mario.factory.extend;
+package pers.mario.simple.factory;
 
 import java.math.BigDecimal;
 
 /**
  * @Project: design
- * @PackageName: pers.mario.factory.extend
+ * @PackageName: pers.mario.factory.simple
  * @FileName: NovelBook.java
  * @Description: The NovelBook is...
  * @Author: mario
- * @Time: 2019-04-08 16:12:41
+ * @Time: 2019-04-08 13:53:03
  * @Version:V1.0.0
  */
 public class NovelBook implements Book {
