@@ -1,7 +1,6 @@
 package pers.mario.test;
 
 import org.junit.Test;
-import pers.mario.builder.Book;
 import pers.mario.builder.NovelBook;
 import pers.mario.builder.NovelBookBuilder;
 
@@ -24,7 +23,6 @@ public class BuliderTest {
         System.out.println(book.getId());
         bookBuilder.setBookId(123);
         System.out.println(book.getId());
-
 
     }
 }

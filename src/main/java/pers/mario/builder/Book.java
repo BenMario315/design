@@ -3,8 +3,8 @@ package pers.mario.builder;
 /**
  * @Project: design
  * @PackageName: pers.mario.builder
- * @FileName: Book.java
- * @Description: The Book is...
+ * @FileName: CloneBook.java
+ * @Description: The CloneBook is...
  * @Author: mario
  * @Time: 2019-04-10 09:54:36
  * @Version:V1.0.0
