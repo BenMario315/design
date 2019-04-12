@@ -10,7 +10,7 @@ package pers.mario.builder;
  * @Version:V1.0.0
  */
 public class NovelBookBuilder implements BookBuilder {
-    NovelBook book = new NovelBook();
+    NovelAbstractBook book = new NovelAbstractBook();
     @Override
     public void setBookId(Integer id) {
         book.setId(id);
@@ -22,7 +22,7 @@ public class NovelBookBuilder implements BookBuilder {
     }
 
     @Override
-    public Book createBook() {
+    public AbstractBook createBook() {
         return book;
     }
 

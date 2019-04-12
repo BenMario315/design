@@ -10,7 +10,7 @@ package pers.mario.builder;
  * @Version:V1.0.0
  */
 public class ToolBookBuilder implements BookBuilder {
-    ToolBook book = new ToolBook();
+    ToolAbstractBook book = new ToolAbstractBook();
     @Override
     public void setBookId(Integer id) {
         book.setId(id);
@@ -22,7 +22,7 @@ public class ToolBookBuilder implements BookBuilder {
     }
 
     @Override
-    public Book createBook() {
+    public AbstractBook createBook() {
         return book;
     }
 

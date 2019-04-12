@@ -1,7 +1,7 @@
 package pers.mario.test;
 
 import org.junit.Test;
-import pers.mario.builder.NovelBook;
+import pers.mario.builder.NovelAbstractBook;
 import pers.mario.builder.NovelBookBuilder;
 
 /**
@@ -19,7 +19,7 @@ public class BuliderTest {
     @Test
     public void test(){
         NovelBookBuilder bookBuilder=new NovelBookBuilder();
-        NovelBook book = (NovelBook) bookBuilder.createBook();
+        NovelAbstractBook book = (NovelAbstractBook) bookBuilder.createBook();
         System.out.println(book.getId());
         bookBuilder.setBookId(123);
         System.out.println(book.getId());

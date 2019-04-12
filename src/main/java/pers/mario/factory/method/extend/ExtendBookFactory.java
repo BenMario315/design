@@ -20,10 +20,10 @@ public class ExtendBookFactory implements ExtendFactory {
 
         try {
 
-            //CloneBook book_1 = (CloneBook) Class.forName(c.getName()).newInstance(); //Java9 以上标示过时，
+            //CloneBook bookOne = (CloneBook) Class.forName(c.getName()).newInstance(); //Java9 以上标示过时，
 
-            Book book_2 = (Book) Class.forName(c.getName()).getDeclaredConstructor().newInstance();
-            return (T) book_2;
+            Book bookTwo = (Book) Class.forName(c.getName()).getDeclaredConstructor().newInstance();
+            return (T) bookTwo;
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -9,7 +9,7 @@ package pers.mario.builder;
  * @Time: 2019-04-10 09:54:36
  * @Version:V1.0.0
  */
-public abstract class Book {
+public abstract class AbstractBook {
     private Integer id;
     private String name;
 

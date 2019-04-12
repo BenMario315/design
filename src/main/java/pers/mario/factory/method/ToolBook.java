@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 /**
  * @Project: design
  * @PackageName: pers.mario.factory.method
- * @FileName: ToolBook.java
- * @Description: The ToolBook is...
+ * @FileName: ToolAbstractBook.java
+ * @Description: The ToolAbstractBook is...
  * @Author: mario
  * @Time: 2019-04-08 15:13:55
  * @Version:V1.0.0

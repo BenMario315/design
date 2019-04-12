@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 /**
  * @Project: design
  * @PackageName: pers.mario.factory.simple
- * @FileName: NovelBook.java
- * @Description: The NovelBook is...
+ * @FileName: NovelAbstractBook.java
+ * @Description: The NovelAbstractBook is...
  * @Author: mario
  * @Time: 2019-04-08 13:53:03
  * @Version:V1.0.0

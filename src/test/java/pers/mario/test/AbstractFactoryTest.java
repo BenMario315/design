@@ -16,7 +16,7 @@ public class AbstractFactoryTest {
 
     @Test
     public void abstractFactoryTest() {
-        OperateFactory factory = new MySQLOperateFactory();
+        OperateFactory factory = new MysqlOperateFactory();
         factory.addBook(new NovelBook());
         factory.delete(1);
         factory.getBook(1);

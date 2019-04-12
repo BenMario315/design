@@ -22,5 +22,9 @@ public interface BookBuilder {
      */
     void setBookName(String name);
 
-    Book createBook();
+    /**
+     * 创建一本书
+     * @return AbstractBook的具体实现类对象
+     */
+    AbstractBook createBook();
 }

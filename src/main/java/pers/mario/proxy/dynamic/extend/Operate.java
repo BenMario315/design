@@ -11,7 +11,7 @@ package pers.mario.proxy.dynamic.extend;
  */
 public interface Operate {
     /**
-     *
+     * 执行某种操作
      */
     void execute();
 }

@@ -10,5 +10,12 @@ package pers.mario.simple.factory;
  * @Version:V1.0.0
  */
 public enum BookType {
-    Novel, Tool
+    /**
+     * 小说类
+     */
+    Novel,
+    /**
+     * 工具类
+     */
+    Tool
 }

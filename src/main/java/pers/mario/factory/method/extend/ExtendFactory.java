@@ -10,5 +10,12 @@ package pers.mario.factory.method.extend;
  * @Version:V1.0.0
  */
 public interface ExtendFactory {
+
+    /**
+     * 创建一本书
+     * @param c
+     * @param <T>
+     * @return
+     */
     <T>T creatBook(Class<T> c);
 }

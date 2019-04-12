@@ -3,8 +3,8 @@ package pers.mario.abstracted.factory;
 /**
  * @Project: design
  * @PackageName: pers.mario.abstracted.factory
- * @FileName: NovelBook.java
- * @Description: The NovelBook is...
+ * @FileName: NovelAbstractBook.java
+ * @Description: The NovelAbstractBook is...
  * @Author: mario
  * @Time: 2019-04-09 17:02:17
  * @Version:V1.0.0
