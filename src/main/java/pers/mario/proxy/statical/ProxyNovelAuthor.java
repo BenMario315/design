@@ -3,18 +3,18 @@ package pers.mario.proxy.statical;
 /**
  * @Project: design
  * @PackageName: pers.mario.proxy
- * @FileName: ProxyAuthor.java
- * @Description: The ProxyAuthor is...
+ * @FileName: ProxyNovelAuthor.java
+ * @Description: The ProxyNovelAuthor is...
  * @Author: mario
  * @Time: 2019-04-11 14:31:49
  * @Version:V1.0.0
  */
-public class ProxyAuthor implements Author {
+public class ProxyNovelAuthor implements Author {
 
-    private Author author;
+    private NovelAuthor author;
 
-    public ProxyAuthor(Author author) {
-        this.author = author;
+    public ProxyNovelAuthor() {
+        author = new NovelAuthor();
     }
 
     @Override

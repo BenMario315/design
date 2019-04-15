@@ -5,8 +5,7 @@ import pers.mario.proxy.dynamic.Author;
 import pers.mario.proxy.dynamic.AuthorInvocationHandler;
 import pers.mario.proxy.dynamic.extend.ToolAuthorInvocationHandler;
 import pers.mario.proxy.dynamic.extend.ToolAuthorProxy;
-import pers.mario.proxy.statical.NovelAuthor;
-import pers.mario.proxy.statical.ProxyAuthor;
+import pers.mario.proxy.statical.ProxyNovelAuthor;
 
 import java.lang.reflect.Proxy;
 
@@ -23,11 +22,9 @@ public class ProxyTest {
 
     @Test
     public void proxyTest() {
-        NovelAuthor novelAuthor = new NovelAuthor();
-        novelAuthor.setName("少年");
 
-        ProxyAuthor proxyAuthor = new ProxyAuthor(novelAuthor);
-        proxyAuthor.write();
+        ProxyNovelAuthor proxyNovelAuthor = new ProxyNovelAuthor();
+        proxyNovelAuthor.write();
 
     }
 

@@ -11,18 +11,8 @@ package pers.mario.proxy.statical;
  */
 public class NovelAuthor implements Author {
 
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @Override
     public void write() {
-        System.out.println("我是" + name + "，现在要准备写小说了");
+        System.out.println("我是一个写小说的，现在要准备写小说了");
     }
 }
