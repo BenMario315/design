@@ -30,6 +30,6 @@ public class Bookroom implements Bookshelf {
 
     @Override
     public void operation() {
-        System.out.println("书架是用来放书的");
+        System.out.println("这是用来存放书的");
     }
 }
