@@ -5,8 +5,8 @@ import java.io.Serializable;
 /**
  * @Project: design
  * @PackageName: pers.mario.prototype
- * @FileName: Author.java
- * @Description: The Author is...
+ * @FileName: Dancer.java
+ * @Description: The Dancer is...
  * @Author: mario
  * @Time: 2019-04-10 17:07:01
  * @Version:V1.0.0

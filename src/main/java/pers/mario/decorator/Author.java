@@ -3,8 +3,8 @@ package pers.mario.decorator;
 /**
  * @Project: design
  * @PackageName: pers.mario.decorator
- * @FileName: Author.java
- * @Description: The Author is...
+ * @FileName: Dancer.java
+ * @Description: The Dancer is...
  * @Author: mario
  * @Time: 2019-04-15 10:46:12
  * @Version:V1.0.0
