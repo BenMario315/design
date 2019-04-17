@@ -19,6 +19,6 @@ public class FacadeTese {
         Book book = new Book();
 
         book.read();
-        book.use();
+
     }
 }
