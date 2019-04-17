@@ -3,15 +3,15 @@ package pers.mario.decorator;
 /**
  * @Project: design
  * @PackageName: pers.mario.decorator
- * @FileName: Decorator.java
- * @Description: The Decorator is...
+ * @FileName: AbstractDecorator.java
+ * @Description: The AbstractDecorator is...
  * @Author: mario
  * @Time: 2019-04-15 10:56:00
  * @Version:V1.0.0
  */
-public abstract class Decorator implements Author {
+public abstract class AbstractDecorator implements Author {
     private Author author = null;
-    public Decorator(Author author){
+    public AbstractDecorator(Author author){
         this.author = author;
     }
 

@@ -9,7 +9,7 @@ package pers.mario.decorator;
  * @Time: 2019-04-15 11:00:03
  * @Version:V1.0.0
  */
-public class AuthorDecorator extends Decorator {
+public class AuthorDecorator extends AbstractDecorator {
     public AuthorDecorator(Author author) {
         super(author);
     }

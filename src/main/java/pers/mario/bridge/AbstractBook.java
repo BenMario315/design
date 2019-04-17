@@ -16,5 +16,8 @@ public abstract class AbstractBook {
         this.material = material;
     }
 
+    /**
+     * 获取材料信息
+     */
     public abstract void materialInfo();
 }

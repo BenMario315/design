@@ -2,8 +2,6 @@ package pers.mario.factory.method.extend;
 
 import pers.mario.factory.method.Book;
 
-import java.lang.reflect.InvocationTargetException;
-
 /**
  * @Project: design
  * @PackageName: pers.mario.factory.method.extend

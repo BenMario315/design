@@ -1,8 +1,5 @@
 package pers.mario.composite;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @Project: design
  * @PackageName: pers.mario.composite
@@ -14,6 +11,9 @@ import java.util.List;
  */
 public interface Bookshelf {
 
+    /**
+     * 书架的基本操作
+     */
     void operation();
 
 }
