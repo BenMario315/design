@@ -10,8 +10,19 @@ package pers.mario.template.method;
  * @Version:V1.0.0
  */
 public abstract class AbstractAuthor {
+    /**
+     * 作家工作之前都需要思考
+     */
     public abstract void think();
+
+    /**
+     * 思考清楚了才会开始写作
+     */
     public abstract void write();
+
+    /**
+     * 累了就睡觉
+     */
     public abstract void sleep();
 
     public void oneDay(){
