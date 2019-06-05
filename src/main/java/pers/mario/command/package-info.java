@@ -1,11 +1,11 @@
 /**
  * @Project: design
- * @PackageName: pers.mario.flyweight
+ * @PackageName: pers.mario.command
  * @FileName: package-info.java
  * @Description: The package is...
  * @Author: mario
- * @Time: 2019-04-17 15:08:30
+ * @Time: 2019-04-28 10:56:47
  * @Version:V1.0.0
  */
-//享元模式
-package pers.mario.flyweight;
+//命令模式
+package pers.mario.command;
