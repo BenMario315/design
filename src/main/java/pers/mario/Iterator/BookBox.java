@@ -19,14 +19,15 @@ public class BookBox implements Box {
         this.vector.add(object);
     }
 
-    public Object getElement(Integer index){
-        if(index<vector.size()){
+    public Object getElement(Integer index) {
+        if (index < vector.size()) {
             return vector.get(index);
         }
         return null;
     }
-    public Integer size(){
-            return vector.size();
+
+    public Integer size() {
+        return vector.size();
     }
 
     @Override
