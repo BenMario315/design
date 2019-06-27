@@ -24,9 +24,9 @@ public class MediatorTest {
         AbstractPerson person4 = new Woman("张四",21, Sex.FEMALE,22,agency);
 
         person1.findPartner();
-//        person2.findPartner();
-//        person3.findPartner();
-//        person4.findPartner();
+        person2.findPartner();
+        person3.findPartner();
+        person4.findPartner();
 
     }
 }
