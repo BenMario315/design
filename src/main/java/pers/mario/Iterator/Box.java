@@ -11,5 +11,6 @@ package pers.mario.Iterator;
  */
 public interface Box {
     void add(Object object);
+
     Iterator createIterator();
 }

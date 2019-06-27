@@ -12,18 +12,21 @@ package pers.mario.builder;
 public interface BookBuilder {
     /**
      * 设置书的id
+     *
      * @param id
      */
     void setBookId(Integer id);
 
     /**
      * 设置书的名称
+     *
      * @param name
      */
     void setBookName(String name);
 
     /**
      * 创建一本书
+     *
      * @return AbstractBook的具体实现类对象
      */
     AbstractBook createBook();

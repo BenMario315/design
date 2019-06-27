@@ -16,15 +16,15 @@ public class Bookroom implements Bookshelf {
 
     List<Bookshelf> list = new ArrayList<>();
 
-    public void addBookshelf(Bookshelf bookshelf){
+    public void addBookshelf(Bookshelf bookshelf) {
         list.add(bookshelf);
     }
 
-    public void remove(Bookshelf bookshelf){
+    public void remove(Bookshelf bookshelf) {
         list.remove(bookshelf);
     }
 
-    public List<Bookshelf> getChild(){
+    public List<Bookshelf> getChild() {
         return list;
     }
 

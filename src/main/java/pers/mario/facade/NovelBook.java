@@ -10,7 +10,7 @@ package pers.mario.facade;
  * @Version:V1.0.0
  */
 public class NovelBook {
-    public void read(){
+    public void read() {
         System.out.println("小说可以阅读");
     }
 }

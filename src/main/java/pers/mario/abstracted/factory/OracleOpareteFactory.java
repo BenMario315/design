@@ -17,7 +17,7 @@ public class OracleOpareteFactory implements OperateFactory {
 
     @Override
     public void delete(Integer id) {
-        System.out.println("从oracle中删除id为"+id+"的数据");
+        System.out.println("从oracle中删除id为" + id + "的数据");
     }
 
     @Override

@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * @Time: 2019-04-08 13:53:58
  * @Version:V1.0.0
  */
-public class ToolBook implements Book{
+public class ToolBook implements Book {
     private String name;
     private BigDecimal price;
 

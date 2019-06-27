@@ -16,6 +16,6 @@ public class NovelBook extends AbstractBook {
 
     @Override
     public void materialInfo() {
-        System.out.println("小说都用"+material.getSheet()+"来制作。");
+        System.out.println("小说都用" + material.getSheet() + "来制作。");
     }
 }

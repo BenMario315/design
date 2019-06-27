@@ -12,6 +12,7 @@ package pers.mario.bridge;
 public interface Material {
     /**
      * 获取纸张
+     *
      * @return 纸张类型
      */
     String getSheet();

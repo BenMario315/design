@@ -14,7 +14,7 @@ public class Book {
     NovelBook novelBook = new NovelBook();
     ToolBook toolBook = new ToolBook();
 
-    public void read(){
+    public void read() {
         novelBook.read();
         toolBook.use();
     }

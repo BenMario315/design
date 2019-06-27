@@ -13,7 +13,7 @@ public class ReaderCommand implements Command {
 
     private Book book;
 
-    public ReaderCommand(Book book){
+    public ReaderCommand(Book book) {
         this.book = book;
     }
 

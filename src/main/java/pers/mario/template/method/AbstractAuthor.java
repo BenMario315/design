@@ -25,7 +25,7 @@ public abstract class AbstractAuthor {
      */
     public abstract void sleep();
 
-    public void oneDay(){
+    public void oneDay() {
         this.think();
         this.write();
         this.sleep();

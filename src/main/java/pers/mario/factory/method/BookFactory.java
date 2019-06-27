@@ -13,6 +13,7 @@ public interface BookFactory {
 
     /**
      * 定义创建Book对象的方法，所有工厂实现该接口创建对应的book。
+     *
      * @return book
      */
     Book create();

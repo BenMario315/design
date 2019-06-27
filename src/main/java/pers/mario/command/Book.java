@@ -10,11 +10,11 @@ package pers.mario.command;
  * @Version:V1.0.0
  */
 public class Book {
-    public void read(){
+    public void read() {
         System.out.println("我要读这本书。");
     }
 
-    public void write(){
+    public void write() {
         System.out.println("我要写这本书。");
     }
 }

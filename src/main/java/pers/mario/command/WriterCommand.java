@@ -13,7 +13,7 @@ public class WriterCommand implements Command {
 
     private Book book;
 
-    public WriterCommand(Book book){
+    public WriterCommand(Book book) {
         this.book = book;
     }
 

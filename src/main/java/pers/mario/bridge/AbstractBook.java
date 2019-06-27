@@ -12,7 +12,7 @@ package pers.mario.bridge;
 public abstract class AbstractBook {
     Material material;
 
-    public AbstractBook(Material material){
+    public AbstractBook(Material material) {
         this.material = material;
     }
 

@@ -17,7 +17,7 @@ public class AuthorDecorator extends AbstractDecorator {
     /**
      * 我可能还需要喝点酒
      */
-    private void drink(){
+    private void drink() {
         System.out.println("我要喝两杯");
     }
 

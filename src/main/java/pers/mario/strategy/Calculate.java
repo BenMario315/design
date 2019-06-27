@@ -14,11 +14,11 @@ import java.math.BigDecimal;
 public class Calculate {
     private AbstractDiscount discount;
 
-    public Calculate(AbstractDiscount discount){
+    public Calculate(AbstractDiscount discount) {
         this.discount = discount;
     }
 
-    public BigDecimal calculatePrice(){
+    public BigDecimal calculatePrice() {
         return discount.discount();
     }
 }

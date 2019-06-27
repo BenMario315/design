@@ -11,7 +11,7 @@ import java.io.*;
  * @Time: 2019-04-10 17:06:14
  * @Version:V1.0.0
  */
-public class CloneBook implements Cloneable,Serializable {
+public class CloneBook implements Cloneable, Serializable {
     private String name;
     private Author author;
 

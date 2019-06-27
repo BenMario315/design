@@ -14,7 +14,7 @@ public class BoxIterator implements Iterator {
     private Integer size;
     private Integer index;
 
-    public BoxIterator(BookBox bookBox){
+    public BoxIterator(BookBox bookBox) {
         this.bookBox = bookBox;
         this.size = bookBox.size();
         this.index = 0;
@@ -22,7 +22,7 @@ public class BoxIterator implements Iterator {
 
     @Override
     public Object next() {
-        if(index<size){
+        if (index < size) {
             return bookBox.getElement(index++);
         }
         return null;
@@ -30,6 +30,6 @@ public class BoxIterator implements Iterator {
 
     @Override
     public Boolean hasNext() {
-        return index<size;
+        return index < size;
     }
 }

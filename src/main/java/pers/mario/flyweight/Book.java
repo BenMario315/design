@@ -10,7 +10,7 @@ package pers.mario.flyweight;
  * @Version:V1.0.0
  */
 public class Book implements IBook {
-    public Book(String type){
+    public Book(String type) {
         this.type = type;
     }
 
@@ -18,7 +18,7 @@ public class Book implements IBook {
 
     @Override
     public void reader() {
-        System.out.println("我正在读"+type+"书");
+        System.out.println("我正在读" + type + "书");
 
     }
 }

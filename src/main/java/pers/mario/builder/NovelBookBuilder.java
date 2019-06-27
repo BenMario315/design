@@ -11,6 +11,7 @@ package pers.mario.builder;
  */
 public class NovelBookBuilder implements BookBuilder {
     NovelAbstractBook book = new NovelAbstractBook();
+
     @Override
     public void setBookId(Integer id) {
         book.setId(id);
@@ -26,7 +27,7 @@ public class NovelBookBuilder implements BookBuilder {
         return book;
     }
 
-    public void setBookPlot(String plot){
+    public void setBookPlot(String plot) {
         book.setPlot(plot);
     }
 }

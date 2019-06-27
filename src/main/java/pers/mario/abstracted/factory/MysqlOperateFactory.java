@@ -18,7 +18,7 @@ public class MysqlOperateFactory implements OperateFactory {
 
     @Override
     public void delete(Integer id) {
-        System.out.println("从mysql中删除id为"+id+"的数据");
+        System.out.println("从mysql中删除id为" + id + "的数据");
     }
 
     @Override

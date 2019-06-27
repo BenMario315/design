@@ -12,6 +12,7 @@ package pers.mario.factory.method;
 public class ToolBookFactory implements BookFactory {
     /**
      * 创建工具类书籍的工厂，返回的对象是Book的子类
+     *
      * @return book
      */
     @Override

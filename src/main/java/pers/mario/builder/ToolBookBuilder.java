@@ -11,6 +11,7 @@ package pers.mario.builder;
  */
 public class ToolBookBuilder implements BookBuilder {
     ToolAbstractBook book = new ToolAbstractBook();
+
     @Override
     public void setBookId(Integer id) {
         book.setId(id);

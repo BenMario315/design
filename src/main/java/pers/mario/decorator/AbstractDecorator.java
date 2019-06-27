@@ -11,7 +11,8 @@ package pers.mario.decorator;
  */
 public abstract class AbstractDecorator implements Author {
     private Author author = null;
-    public AbstractDecorator(Author author){
+
+    public AbstractDecorator(Author author) {
         this.author = author;
     }
 

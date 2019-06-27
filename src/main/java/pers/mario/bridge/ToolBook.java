@@ -16,6 +16,6 @@ public class ToolBook extends AbstractBook {
 
     @Override
     public void materialInfo() {
-        System.out.println("工具书都是"+material.getSheet()+"制作的");
+        System.out.println("工具书都是" + material.getSheet() + "制作的");
     }
 }

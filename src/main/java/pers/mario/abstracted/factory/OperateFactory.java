@@ -12,18 +12,21 @@ package pers.mario.abstracted.factory;
 public interface OperateFactory {
     /**
      * 想数据库中添加一本书
+     *
      * @param book 要添加的对象
      */
     void addBook(Book book);
 
     /**
      * 根据id从数据库中删除某个对象
+     *
      * @param id
      */
     void delete(Integer id);
 
     /**
      * 根据id从数据库中查询某本书籍
+     *
      * @param id 带查询的对象id
      * @return book
      */
@@ -31,6 +34,7 @@ public interface OperateFactory {
 
     /**
      * 修改数据库中对象
+     *
      * @param book
      * @return
      */

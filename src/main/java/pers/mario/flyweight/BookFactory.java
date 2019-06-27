@@ -13,15 +13,16 @@ import java.util.Map;
  * @Version:V1.0.0
  */
 public class BookFactory {
-    private static Map<String,Book> pool = new HashMap<>();
+    private static Map<String, Book> pool = new HashMap<>();
 
-    private BookFactory(){}
+    private BookFactory() {
+    }
 
-    public static Book getBook(String type){
+    public static Book getBook(String type) {
         Book book = pool.get(type);
-        if(book ==null){
+        if (book == null) {
             book = new Book(type);
-            pool.put(type,book);
+            pool.put(type, book);
         }
         return book;
     }

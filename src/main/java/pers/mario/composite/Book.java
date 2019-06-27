@@ -9,7 +9,7 @@ package pers.mario.composite;
  * @Time: 2019-04-16 14:03:55
  * @Version:V1.0.0
  */
-public class Book implements Bookshelf{
+public class Book implements Bookshelf {
 
     @Override
     public void operation() {

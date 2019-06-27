@@ -10,7 +10,7 @@ package pers.mario.facade;
  * @Version:V1.0.0
  */
 public class ToolBook {
-    public void use(){
+    public void use() {
         System.out.println("工具书被使用了");
     }
 }

@@ -13,6 +13,7 @@ public class BookFactory {
 
     /**
      * 制造书的工厂，不要问我制造什么书，你给我你要制造的书的类型，我就给你制造对应类型的书，我不会造就会给你null。
+     *
      * @param type 书籍的类型
      * @return book 或者 null
      */

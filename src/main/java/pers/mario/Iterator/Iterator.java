@@ -11,5 +11,6 @@ package pers.mario.Iterator;
  */
 public interface Iterator {
     Object next();
+
     Boolean hasNext();
 }

@@ -13,6 +13,7 @@ public class NovelBookFactory implements BookFactory {
 
     /**
      * 创建小说的工厂，返回的对象是Book的子类
+     *
      * @return book
      */
     @Override
